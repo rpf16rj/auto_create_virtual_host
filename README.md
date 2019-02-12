@@ -1,6 +1,4 @@
 # Script sh para criar automaticamente host virtual no Nginx e apontar para um container docker.
-
-274/5000
 This script enables the creation of virtual host in Nginx and automatically points to a docker container running on the server.
 
 In order to work, you must have installed:
