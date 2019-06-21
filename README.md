@@ -1,17 +1,17 @@
 # Script sh para criar automaticamente host virtual no Nginx e apontar para um container docker.
-This script enables the creation of virtual host in Nginx and automatically points to a docker container running on the server.
 
-In order to work, you must have installed:
-- Nginx
-- Certbot
+Esse script permite a criação do host virtual no Nginx e apontar para qualquer servidor web em execução no servidor.
 
-It works only on Linux.
+# Requisitos
+- Ubuntu ou derivados Debian
+- Nginx instalado
+- Certbot instalado
 
-# Features
-- Automates virtual host configuration
-- Automate SSL configuration for your site
+# Recursos
+- Configura automaticamente o arquivo de host virtual
+- Gera o certificado SSL para o site
 
-# Usage: 
+# Como usar: 
 
 git clone https://github.com/rpf16rj/auto_create_virtual_host 
 
