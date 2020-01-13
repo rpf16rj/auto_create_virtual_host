@@ -1,11 +1,11 @@
-# Script sh para criar automaticamente host virtual no Nginx e apontar para um container docker.
+# Script para automatizar configuração do Nginx
 
-Esse script permite a criação do host virtual no Nginx e apontar para qualquer servidor web em execução no servidor.
+# Recursos
+- Este scritp criar o arquivo .conf do Nginx que aponta o para algum serviço publicado em alguma porta no host. 
+- Também permite que seja criado o certificado para que o serviço rode no domínio com HTTPS com certificado válido pelo Let's Encrypt. 
 
-# Requisitos
+# Compatibilidade
 - Ubuntu ou derivados Debian
-- Nginx instalado
-- Certbot instalado
 
 # Recursos
 - Configura automaticamente o arquivo de host virtual
@@ -13,7 +13,10 @@ Esse script permite a criação do host virtual no Nginx e apontar para qualquer
 
 # Como usar: 
 
+```bash
 git clone https://github.com/rpf16rj/auto_create_virtual_host 
+
+cd auto_create_virtual_host 
 
 sudo chmod +x auto_host.sh 
 
